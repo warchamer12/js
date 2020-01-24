@@ -1,0 +1,40 @@
+<!--
+  Index 12
+  JS Lekcja 1
+-->
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Funkcja kwadratowa
+    </title>
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var x = prompt("Wpisz liczbe ax^2: ",'');
+      var y = prompt("Wpisz liczbe bx: ",'');
+      var z = prompt("Wpisz liczbe c: ",'');
+      if (x == 0) {
+        document.write("Błąd");
+      } else {
+        var delta = y*y - 4*x*z;
+        var sqrt = Math.sqrt(delta);
+        if (delta == 0) {
+          var wynik = -y / (2*x);
+          document.write("<h1>x0 wynosi: " + wynik+"</h1>");
+        }
+        if (delta > 0) {
+          var x1 = (-y - sqrt) / (2*x);
+          var x2 = (-y + sqrt) / (2*x);
+          document.write("x1 wynosi: " + x1 + "\nx2 wynosi: " + x2);
+        } else {
+          document.write("Delta jest ujemna!");
+        }
+      }
+    </script>
+  </body>
+  <!-- Plik zewnetrzny <script src="template.js" charset="utf-8"></script> -->
+</html>

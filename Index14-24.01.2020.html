@@ -1,0 +1,30 @@
+<!--
+  Index 14
+  JS Lekcja 1
+-->
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Dzien tygodnia Listą
+    </title>
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var a = prompt("Podaj dzien tygodnia: "+"\n\np = poniedzialek, w = wtorek, s = sroda, c = czwartek,\np = piatek, s = sobota, n = niedziela",'');
+      var array = ["s", "sobota", "Sobota", "n", "niedziela", "Niedziela"]; //lista 1
+      var array2 = ["p", "poniedzialek", "w", "wtorek", "s", "sroda", "c", "czwartek", "p", "piatek"]; //lista 2
+      if (array.includes(a)) { //jezeli array zawiera nasza podana wartość
+        document.write("Miłego weekendu!");
+      } else if (array2.includes(a)) {
+        document.write("Miłej pracy!");
+      } else {
+        document.write("Nie mam takiego dnia tygodnia w liscie!");
+      }
+    </script>
+  </body>
+  <!-- Plik zewnetrzny <script src="template.js" charset="utf-8"></script> -->
+</html>

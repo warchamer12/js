@@ -1,0 +1,30 @@
+<!--
+  Index 10
+  JS Lekcja 1
+-->
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Liczby
+    </title>
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var a = prompt("Wpisz pierwsza liczbe: ",'');
+      var b = prompt("Wpisz druga liczbe: ",'');
+      if (a, b === null) {
+        document.write("<h1>Anulowałeś działanie!</h1>");
+      } else if (a == 0 || b == 0) {
+        document.write("<h1>Nie dziel przez zero!</h1>");
+      } else {
+        var liczba = Number(a)/Number(b);
+        document.write("<h1>Wynik działania wynosi: " + liczba + "</h1>");
+      }
+    </script>
+  </body>
+  <!-- Plik zewnetrzny <script src="template.js" charset="utf-8"></script> -->
+</html>

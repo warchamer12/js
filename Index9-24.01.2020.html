@@ -1,0 +1,29 @@
+<!--
+  Index 9
+  JS Lekcja 1
+-->
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Liczby
+    </title>
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var a = prompt("Wpisz pierwsza liczbe: ",'');
+      var b = prompt("Wpisz druga liczbe: ",'');
+      if (a, b === null) {
+        document.write("<h1>Anulowałeś działanie!</h1>");
+      } else if (Number(a) == Number(b)) {
+        document.write("<h1>Liczby sa równe!</h1>");
+      } else {
+        document.write("<h1>" + Math.max(a, b) + "</h1>");
+      }
+    </script>
+  </body>
+  <!-- Plik zewnetrzny <script src="template.js" charset="utf-8"></script> -->
+</html>

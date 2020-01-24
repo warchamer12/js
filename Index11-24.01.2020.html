@@ -1,0 +1,52 @@
+<!--
+  Index 11
+  JS Lekcja 1
+-->
+
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Działania podstawowych operacji na liczbach
+  </title>
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <button onclick="dodawanie()">Dodawanie</button>
+  <button onclick="odejmowanie()">Odejmowanie</button>
+  <button onclick="mnozenie()">Mnożenie</button>
+  <button onclick="dzielenie()">Dzielenie</button>
+  <script type="text/javascript">
+    function dodawanie() {
+      var a = prompt("Wpisz pierwsza liczbe: ", "");
+      var b = prompt("Wpisz druga liczbe: ", "");
+      var c = a + b;
+      alert("Wynikiem dodawania jest: " + c);
+    }
+
+    function odejmowanie() {
+	  var a = prompt("Wpisz pierwsza liczbe: ", "");
+      var b = prompt("Wpisz druga liczbe: ", "");
+      var c = a - b;
+      alert("Wynikiem odejmowania jest: " + c);
+    }
+
+    function mnozenie() {
+	  var a = prompt("Wpisz pierwsza liczbe: ", "");
+      var b = prompt("Wpisz druga liczbe: ", "");
+      var c = a * b;
+      alert("Wynikiem mnożenia jest: " + c);
+    }
+
+    function dzielenie() {
+	  var a = prompt("Wpisz pierwsza liczbe: ", "");
+      var b = prompt("Wpisz druga liczbe: ", "");
+      var c = a / b;
+      alert("Wynikiem dzielenia jest: " + c);
+    }
+  </script>
+</body>
+
+</html>
