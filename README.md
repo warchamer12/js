@@ -1,2 +1,2 @@
-JavaScript tutorial for you :)\n
-Copyright Ⓒ 2020 | warchamer12
+JavaScript tutorial for you :)
+<br>Copyright Ⓒ 2020 | warchamer12
